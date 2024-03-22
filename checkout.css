@@ -88,6 +88,39 @@ body {
     margin-top: 10px;
 }
 
+.endereco-container {
+  margin-top: 20px;
+  text-align: right;
+}
+
+#cepInput {
+  padding: 8px;
+  border: 1px solid darkorange;
+  border-radius: 5px;
+}
+
+#cepInput:focus {
+  outline: none;
+  border-color: orange;
+}
+
+#endereco {
+  margin-top: 10px;
+}
+
+#buscar-endereco {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#buscar-endereco:hover {
+  background-color: darkorange;
+}
 
 
 
